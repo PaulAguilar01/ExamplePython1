@@ -6,7 +6,7 @@ jobs:
     build:
         docker:
             - image: circleci/python:3.6.9 
-        step:
+        steps:
             - checkout
             - run:
                   name: Show directoryes
